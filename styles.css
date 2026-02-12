@@ -1,0 +1,69 @@
+/*  Author: Olivia Haag
+ *  Date: 2/21/26
+ *  Class: Rize - Software Development
+ *  Purpose:Assignment: Assign. 5 - SkillSwap Stylesheet
+ */
+
+/* universal style */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* global styles*/
+/*now the background of the whole page*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* header begins */
+header {
+  background-color: #1e2a38;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+header h1 a:hover {
+  color: #f0c040;
+}
+
+/* navigation begins */
+nav {
+  background-color: #2f4054;
+}
+
+nav li {
+  margin: 0;
+}
+
+/* .classes and #ids */
+.hero {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+#homehero {
+  background-image: url("hero.jpg"); /* replace with your image */
+}
+
+footer {
+  padding: 2em;
+  background-color: white;
+  /*fonts*/
+  font-size: 75%;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  text-align: center;
+}
